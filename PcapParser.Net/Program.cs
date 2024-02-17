@@ -22,4 +22,10 @@ GetDistinct.SetHandler((InputLanFilter, InputFile) =>
 
 Root.AddCommand(GetDistinct);
 
+PcapAnalyzer Pcap = new PcapAnalyzer()
+{
+    InputFile = "/home/niels/Schreibtisch/Data.pcap.ng"
+};
+Pcap.ParsePcap();
+
 await Root.InvokeAsync(args);
