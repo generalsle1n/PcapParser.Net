@@ -13,9 +13,7 @@
             "args": [
                 "--Distinct",
                 "--File",
-                "/home/niels/Schreibtisch/Data3.pcapng",
-                "--Output",
-                "/tmp/a.json"
+                "/home/niels/Schreibtisch/Data3.pcapng"
             ],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
